@@ -1,0 +1,6 @@
+<input #jim
+    (keyup.enter)="onEnter(jim.value)"
+    (blur)="update(jim.value)">
+<p>{{value}}</p>
+
+<ul><li *ngFor="let hero of heroes">{{hero}}</li></ul>
